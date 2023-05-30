@@ -11,30 +11,26 @@
 
 header{
  
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
 }
 
 section { 
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 article { 
-    width: 100%;
-}
-
-article img{
-    max-width: 100%;
+	width: 80%;
+	display: flex;
 }
 
 
 body{
-	background-color:rgb(255, 255, 255);	
+	background-color:rgb(241, 234, 234);	
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .cabecalho{
@@ -45,22 +41,53 @@ body{
     
 }
 .logo{
-text-align: center;
+	text-align: center;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-header img{
-   VER 
+.menu a{
+	display:contents;
+	width:100%;
+	height:100%;
+	position:fixed;
+	color:#1fa386;
+	font-weight: bold;
+	word-spacing: 20px;
+	margin-right: 20px;
+
 }
 
+figure{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+main{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-h1{
+main h1{
     font-size: 40px;
     text-align: center;
+	font-family:fantasy;
 }
+
+main h2{
+	font-family:cursive;
+	font-size: 20px;	
+}
+
+main p{
+	text-align: justify;
+	margin: 0px 0px 32px;
+	text-indent: 20px;
+}
+
 
 footer{
 	width: 100%;
@@ -69,4 +96,23 @@ footer{
 	text-align: center;
 	background-color: #8ddedf;
 	color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-twitter {
+		background: #55ACEE;
+		color: white;}
+
+.fa-linkedin-in { 
+    background: white;
+    color: #3B5998;
 }
