@@ -20,13 +20,15 @@ header{
 section { 
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: flex-start;	
 }
 
 article { 
-	flex-basis: 45%;
-	margin-bottom: 20px;
+	margin: 0;
+	width: 40%;
+	max-width: 400px;
+	
 }
 
 body{
@@ -85,6 +87,8 @@ main p{
 	text-align: justify;
 	margin: 0px 0px 32px;
 	text-indent: 20px;
+	line-height: 1.5;
+	font-family: serif;
 }
 
 .BD .SÉRIE .AUTORA .Livros{
@@ -96,8 +100,14 @@ main p{
 	margin: 0 auto;
 }
 
+#autora{
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
 .AUTORA img{
-	width: 77%;
+	max-width: 340px;
 }
 
 .descrição{
@@ -105,6 +115,11 @@ main p{
 	margin-top: 10px;
 }
 
+.class video{
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;	
+}
 iframe {
 	display: block;
 	margin: 0 auto;
