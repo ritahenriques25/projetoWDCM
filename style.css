@@ -73,9 +73,11 @@ main{
 }
 
 main h1{
-    font-size: 40px;
+    color:#1fa386;
+	font-size: 40px;
     text-align: center;
 	font-family:fantasy;
+	
 }
 
 main h2{
@@ -89,6 +91,7 @@ main p{
 	text-indent: 20px;
 	line-height: 1.5;
 	font-family: serif;
+	font-size: 18px;
 }
 
 .BD .SÉRIE .AUTORA .Livros{
@@ -146,8 +149,8 @@ footer{
 
 
 .fa-twitter {
-		background: #55ACEE;
-		color: white;}
+	background: #55ACEE;
+	color: white;}
 
 .fa-linkedin-in { 
     background: white;
