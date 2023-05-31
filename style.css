@@ -20,13 +20,14 @@ header{
 section { 
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;	
 }
 
 article { 
-	width: 80%;
-	display: flex;
+	flex-basis: 45%;
+	margin-bottom: 20px;
 }
-
 
 body{
 	background-color:rgb(241, 234, 234);	
@@ -54,9 +55,7 @@ body{
 	position:fixed;
 	color:#1fa386;
 	font-weight: bold;
-	word-spacing: 20px;
 	margin-right: 20px;
-
 }
 
 figure{
@@ -88,6 +87,29 @@ main p{
 	text-indent: 20px;
 }
 
+.BD .SÉRIE .AUTORA .Livros{
+	text-align: center;
+}
+
+.BD img .SÉRIE img .Livros img{
+	display: block;
+	margin: 0 auto;
+}
+
+.AUTORA img{
+	width: 77%;
+}
+
+.descrição{
+	text-align: center;
+	margin-top: 10px;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+  }
 
 footer{
 	width: 100%;
