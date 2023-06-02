@@ -1,5 +1,4 @@
 *{
-	margin: 0;
 	padding:0;
 	font-size: 100%;
 	border:none;
@@ -21,19 +20,24 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	align-items: flex-start;	
+	align-items: center;	
 }
 
-article { 
+#autora article:first-child { 
 	margin: 0;
 	width: 40%;
 	max-width: 400px;
-	
+}
+
+#autora article:last-child{
+	width: 55%;
+	margin: 0;
 }
 
 body{
 	background-color:rgb(241, 234, 234);	
 	width: 100%;
+	margin: 0;
 }
 
 .cabecalho{
@@ -51,10 +55,6 @@ body{
 }
 
 .menu a{
-	display:contents;
-	width:100%;
-	height:100%;
-	position:fixed;
 	color:#1fa386;
 	font-weight: bold;
 	margin-right: 20px;
@@ -78,6 +78,17 @@ main h1{
     text-align: center;
 	font-family:fantasy;
 	
+}
+
+#autora h1{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#livros{
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 main h2{
@@ -118,7 +129,11 @@ main p{
 	margin-top: 10px;
 }
 
-.class video{
+.video h1{
+	width: 100%;
+}
+
+.video{
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: flex-start;	
@@ -127,7 +142,7 @@ iframe {
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
-  }
+}
 
 footer{
 	width: 100%;
